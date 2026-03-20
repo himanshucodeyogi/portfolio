@@ -53,16 +53,16 @@ export default function Globe() {
     <group ref={groupRef} position={[0, 0, 0]}>
       <mesh>
         <icosahedronGeometry args={[2, isMobile ? 1 : 2]} />
-        <meshBasicMaterial color="#00f0ff" wireframe transparent opacity={0.08} />
+        <meshBasicMaterial color="#00f0ff" wireframe transparent opacity={0.18} />
       </mesh>
       {!isMobile && (
         <mesh>
           <icosahedronGeometry args={[2.2, 1]} />
-          <meshBasicMaterial color="#8b5cf6" wireframe transparent opacity={0.04} />
+          <meshBasicMaterial color="#8b5cf6" wireframe transparent opacity={0.1} />
         </mesh>
       )}
       <points ref={pointsRef} geometry={particleGeometry}>
-        <pointsMaterial color="#00f0ff" size={0.015} transparent opacity={0.6} sizeAttenuation />
+        <pointsMaterial color="#00f0ff" size={0.02} transparent opacity={0.85} sizeAttenuation />
       </points>
     </group>
   );
