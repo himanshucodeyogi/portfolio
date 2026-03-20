@@ -11,7 +11,7 @@ export default function Scene({ scrollY }: { scrollY: number }) {
   return (
     <div className="fixed inset-0 z-0">
       <Canvas
-        camera={{ position: [0, 0, 6], fov: 60 }}
+        camera={{ position: [0, 0, 6] as [number, number, number], fov: 60 }}
         dpr={[1, 1.5]}
         gl={{ antialias: true, alpha: true }}
       >
