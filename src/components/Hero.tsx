@@ -36,7 +36,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center px-6">
+    <section id="home" className="relative min-h-screen flex items-center justify-center px-6 pt-24">
       <div className="max-w-3xl text-center z-10">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
