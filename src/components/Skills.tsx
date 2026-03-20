@@ -19,7 +19,7 @@ const skillGroups = [
   {
     title: 'Backend & Databases',
     color: 'accent',
-    skills: ['Node.js', 'Express.js', 'MongoDB', 'NoSQL'],
+    skills: ['Node.js', 'Express.js','Python', 'MongoDB', 'NoSQL'],
     description:
       'Designing scalable RESTful APIs and efficient database architectures that handle real-world traffic, with a focus on clean separation of concerns and robust error handling.',
   },

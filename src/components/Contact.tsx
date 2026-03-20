@@ -114,15 +114,15 @@ export default function Contact() {
           className="mt-20 pt-8 border-t border-border/40 text-center"
         >
           <div className="flex justify-center gap-6 mb-6">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/himanshucodeyogi" target="_blank" rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/himanshu-kashyap-81b92b361/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7JKWDKA1R0CIcUIDDc6iGw%3D%3D" target="_blank" rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-200">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="mailto:himanshu@example.com"
+            <a href="mailto:himanshu.codeyogi@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-200">
               <Mail className="w-5 h-5" />
             </a>

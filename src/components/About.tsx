@@ -28,10 +28,11 @@ export default function About() {
         <div className="space-y-6 text-muted-foreground text-base md:text-lg leading-relaxed">
           <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} custom={2}>
             I'm currently a Class 11 student at S.A.M. Inter College in Saharanpur, navigating the exciting intersection
-            of formal education and self-driven software engineering. While my peers explore traditional academic paths,
-            I've chosen to complement my studies with an intense, hands-on journey into the world of technology — teaching
-            myself everything from data structures to distributed systems, and building real products along the way. This
-            dual commitment has sharpened both my discipline and my ability to learn anything, fast.
+            of formal education and real-world software engineering. While my peers explore traditional academic paths,
+            I've chosen to complement my studies with an intense, hands-on journey into the world of technology. Through
+            rigorous training at CodeYogi, I've learned everything from foundational programming to complex system
+            architecture, building real products along the way. This dual commitment has sharpened both my discipline
+            and my ability to learn and adapt fast.
           </motion.p>
           <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} custom={3}>
             As a Remote Intern at CodeYogi Foundation, I've had the privilege of working on production-grade MERN stack
@@ -41,11 +42,11 @@ export default function About() {
             me to write cleaner, more maintainable code and to think like an engineer, not just a programmer.
           </motion.p>
           <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} custom={4}>
-            Beyond web development, my curiosity spans a wide and growing landscape. I've explored game development with
-            Unity and C++, built automation pipelines with AI tools like Gemini and Claude, and delved into the
-            fundamentals of ethical hacking using Kali Linux. This breadth isn't scattered ambition — it's a deliberate
-            strategy to understand how different domains of computing connect, so that when I build something, I can draw
-            on a rich mental model of how software, security, and intelligence intersect in the real world.
+            Beyond web development, my curiosity spans a wide and growing landscape. I've explored game development,
+            built automation pipelines with AI tools like Gemini and Claude, and delved into the fundamentals of ethical
+            hacking using Kali Linux. This breadth isn't scattered ambition — it's a deliberate strategy to understand
+            how different domains of computing connect, so that when I build something, I can draw on a rich mental model
+            of how software, security, and intelligence intersect in the real world.
           </motion.p>
         </div>
       </div>

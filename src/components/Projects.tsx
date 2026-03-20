@@ -22,16 +22,15 @@ const projects = [
     ],
   },
   {
-    title: 'Sug Solh',
-    link: 'https://sug-solh.onrender.com',
-    description:
-      'An integrated web solution engineered for efficient data management and intuitive user interaction. Sug Solh streamlines complex workflows into a clean, accessible interface that makes data-driven decisions effortless.',
-    features: [
-      'Dynamic data dashboards with real-time updates and interactive filtering capabilities',
-      'Role-based access control ensuring secure, multi-level user management',
-      'Optimized MongoDB aggregation pipelines for fast, complex data retrieval',
-    ],
-  },
+  title: 'Sugam Garbh',
+  link: 'https://sug-solh.onrender.com',
+  description: 'A bilingual, AI-powered pregnancy tracking and support platform. It integrates Meta Llama 3.1 to provide context-aware health guidance, traditional remedies, and automated reminders across both Web and Telegram interfaces.',
+  features: [
+    'Context-aware AI conversational agent powered by Meta Llama 3.1 70B with seamless bilingual (Hindi/English) support',
+    'Dual-platform accessibility via Telegram Bot and Web Interface, featuring scheduled health checks and background push notifications',
+    'Military-grade data security utilizing AES-256-CBC encryption to protect sensitive user health and location records in MongoDB'
+  ]
+},
   {
     title: 'ThinkDual',
     link: 'https://thinkdual-8vdt.onrender.com/',
