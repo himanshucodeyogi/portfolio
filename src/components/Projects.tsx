@@ -11,6 +11,17 @@ const fadeUp = {
 
 const projects = [
   {
+    title: 'TypeAura Keyboard',
+    link: 'https://typeaura-ai.vercel.app',
+    description:
+      'An AI-powered Android custom keyboard built with Flutter, offering real-time Hinglish ↔ English translation via LLaMA 3.3 70B. Its standout Floating Lens overlay translates any on-screen text using the Accessibility API, going far beyond a typical IME.',
+    features: [
+      'Floating Lens overlay that reads and translates on-screen text anywhere using a foreground service and the Android Accessibility API',
+      'On-device offline suggestions plus AI tools — Smart Reply, Email Composer, Tone Changer, and Live Translate — backed by a secure server-side Groq proxy',
+      'Native IME integrated with Flutter over a MethodChannel, with speech-to-text, emoji panel, clipboard history, and token-based premium tiers',
+    ],
+  },
+  {
     title: 'Blood Donor Connect',
     link: 'https://blood-donor-rust.vercel.app/',
     description:
